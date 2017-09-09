@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.eccoplayer.app.MainActivity" >
+
+    <group android:id="@+id/grout_main" >
+    
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"/>
+    
+    <item 
+        android:title="@string/play_list"
+        android:icon="@mipmap/ic_playlist"
+        android:id="@+id/play_list_menu" />
+    
+    <item
+        android:title="@string/add_to_playlist"
+        android:id="@+id/menu_play" />
+    
+	</group>
+    
+</menu>

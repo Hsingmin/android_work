@@ -1,0 +1,20 @@
+package com.example.servicedemo;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+
+public class ServiceActivity extends Activity {
+	
+	private Button startService;
+	private Button stopService;
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState){
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.service_demo);
+		
+		startService = (Button) findViewById(R.id.start_local_service);
+		
+	}
+}

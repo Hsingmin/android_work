@@ -1,0 +1,7 @@
+design.palette.flyout.width=157
+design.structure.flyout.width=189
+eclipse.preferences.version=1
+org.eclipse.andmore.fixLegacyEditors=1
+org.eclipse.andmore.lintOnSave=false
+org.eclipse.andmore.sdk=E\:\\adt-bundle-windows-x86_64-20140321\\adt-bundle-windows-x86_64-20140321\\sdk
+org.eclipse.andmore.xmlEditor=true
